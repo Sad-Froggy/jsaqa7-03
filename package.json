@@ -1,37 +1,22 @@
 {
-  "name": "jsaqa_3",
+  "name": "jsaqa7-03",
   "version": "1.0.0",
-  "description": "jest test",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "coverage": "jest --collectCoverage"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sad-Froggy/jsaqa7-03.git"
   },
-  "collectCoverage": {
-    "collectCoverageFrom": [
-      "**/*.{js,jsx}",
-      "!**/node_modules/**",
-      "!**/coverage/**"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
-      }
-    }
-  },
-  "keywords": [
-    "jest",
-    "test",
-    "jsaqa"
-  ],
-  "author": "omelnikova",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sad-Froggy/jsaqa7-03/issues"
+  },
+  "homepage": "https://github.com/Sad-Froggy/jsaqa7-03#readme",
+  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
-    "@types/node": "^22.14.1",
-    "jest": "^27.3.1",
-    "playwright": "^1.51.1"
+    "@types/node": "^22.14.1"
   }
 }
